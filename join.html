@@ -63,33 +63,9 @@
         <p>&copy; 2026 Freelance Field. All rights reserved.</p>
     </footer>
 
-    <script>
-        function toggleForm(type) {
-            const title = document.getElementById('form-title');
-            const submitBtn = document.getElementById('submit-btn');
-            const toggleText = document.getElementById('toggle-text');
-            const professionGroup = document.getElementById('profession-group');
-            const nameInput = document.getElementById('name');
-            
-            if(type === 'login') {
-                title.innerText = 'Log In to Your Account';
-                submitBtn.innerText = 'Log In';
-                toggleText.innerHTML = 'Don\'t have an account? <a onclick="toggleForm(\'signup\')">Sign up here</a>';
-                professionGroup.style.display = 'none';
-                document.getElementById('profession').removeAttribute('required');
-                nameInput.parentElement.style.display = 'none';
-                nameInput.removeAttribute('required');
-            } else {
-                title.innerText = 'Become a Freelancer';
-                submitBtn.innerText = 'Create Account';
-                toggleText.innerHTML = 'Already have an account? <a onclick="toggleForm(\'login\')">Log in here</a>';
-                professionGroup.style.display = 'block';
-                document.getElementById('profession').setAttribute('required', 'true');
-                nameInput.parentElement.style.display = 'block';
-                nameInput.setAttribute('required', 'true');
-            }
-        }
-    </script>
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js"></script>
     <script src="theme.js"></script>
 </body>
 </html>
