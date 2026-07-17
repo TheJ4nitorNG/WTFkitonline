@@ -49,6 +49,10 @@ export default function Home() {
           When a command fails, most developers copy the error, Google it, and try random fixes. WTFKit skips that entire process. It reads your recent terminal failure and gives you straight answers.
         </p>
 
+        <div className="w-full max-w-3xl my-8 p-4 bg-yellow-500/10 border border-yellow-500/30 rounded-lg text-center">
+          <p className="font-semibold text-yellow-300">WTFKit now supports Gemini AI, use <code className="bg-slate-800/50 px-2 py-1 rounded">wtf --ai</code>, <code className="bg-slate-800/50 px-2 py-1 rounded">why --ai</code> and <code className="bg-slate-800/50 px-2 py-1 rounded">fix --ai</code> to get perfect results!</p>
+        </div>
+
         <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md justify-center">
           <div className="flex items-center bg-slate-900 border border-slate-700 rounded-lg overflow-hidden shadow-2xl shadow-emerald-900/20">
             <span className="px-4 text-slate-500 select-none">$</span>

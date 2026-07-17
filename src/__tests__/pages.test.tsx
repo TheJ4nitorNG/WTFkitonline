@@ -11,6 +11,7 @@ describe('Application Pages', () => {
     expect(screen.getByText(/terminal broke\./i)).toBeInTheDocument();
     expect(screen.getByText(/What broke\?/i)).toBeInTheDocument();
     expect(screen.getAllByText(/npm install -g wtf/i).length).toBeGreaterThan(0);
+    expect(screen.getByText(/WTFKit now supports Gemini AI/i)).toBeInTheDocument();
     
     // Check for correct external links
     const links = screen.getAllByRole('link');
