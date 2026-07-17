@@ -1,0 +1,5 @@
+Track: track_001
+Objective: Set up Next.js boilerplate and deploy landing page.
+Efficiency: ~7 turns for 6 tasks.
+Fidelity: Minor hitches with PowerShell syntax (`&&` vs `; if ($?)`) and Jest multiple matches error (`getByText` vs `getAllByText`). Fast recovery, no repeating loops.
+User Feedback: "4/5, nice job, needs some work"
