@@ -108,7 +108,7 @@ export default function Home() {
           </div>
           
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-sm font-medium text-slate-500">
-            <a href="https://github.com/TheJ4nitorNG/wtfkitwebsite" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-400 transition-colors">
+            <a href="https://github.com/TheJ4nitorNG/wtfkitonline" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-emerald-400 transition-colors">
               <Code2 size={16} />
               Website Source
             </a>
